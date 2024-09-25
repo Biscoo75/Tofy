@@ -1,0 +1,33 @@
+.iti--allow-dropdown .iti__flag-container,
+.iti--separate-dial-code .iti__flag-container {
+    right: 0;
+    left: auto;
+}
+
+.iti--allow-dropdown input,
+.iti--allow-dropdown input[type=tel],
+.iti--allow-dropdown input[type=text],
+.iti--separate-dial-code input,
+.iti--separate-dial-code input[type=tel],
+.iti--separate-dial-code input[type=text] {
+    padding-right: 47px;
+    padding-left: 10px;
+    text-align: right;
+}
+.iti,
+.iti input,
+.iti input[type=tel],
+.iti input[type=text] 
+{
+    /* right: 0 !important; */
+}
+.iti__selected-flag {
+    border-left: 0.5px solid #f5f5f586;
+    padding: 0 7px 0 8px;
+    gap: 5px;
+}
+.form-input label
+{
+  padding-right: 47px;
+
+}
